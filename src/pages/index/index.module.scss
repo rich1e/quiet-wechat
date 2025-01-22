@@ -1,0 +1,59 @@
+.page-container {
+  height: 100vh;
+  background: url('~@/assets/images/index/index_bg.jpg') #1E1E1E no-repeat;
+  background-position: 0 -140px;
+  background-size: contain;
+  padding-top: 700rpx;
+
+  .gold {
+    color: #BDA020;
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+
+  .tag {
+    background-color: #BDA020;
+    height: 40rpx;
+    width: 12rpx;
+
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+
+  &__signboard {
+    background: #000;
+    color: #fff;
+    border-radius: 20rpx;
+    padding: 20rpx 70rpx;
+    width: 510rpx;
+    margin: 0 auto;
+    line-height: 1.2;
+    font-size: 28rpx;
+  }
+
+  &__lesson {
+    position: relative;
+
+    &-wrapper {
+      display: flex;
+    }
+
+    .section {
+      height: 300rpx;
+      flex-grow: 1;
+      margin: 0 20rpx;
+      background-color: #000;
+      color: #fff;
+    }
+  }
+
+  &__footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+    line-height: 3;
+  }
+}

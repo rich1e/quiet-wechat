@@ -14,6 +14,11 @@
     "strictNullChecks": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "paths": {
+      "@/assets/*": ["./src/assets/*"],
+      "@/package": ["./package.json"],
+      "@/project": ["./project.config.json"]
+    },
     "rootDir": ".",
     "jsx": "preserve",
     "allowJs": true,
