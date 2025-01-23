@@ -1,9 +1,3 @@
-<!--
- * @Author       : yuqigong@outlook.com
- * @Date         : 2024-12-23 09:18:14
- * @LastEditors  : yuqigong@outlook.com
- * @LastEditTime : 2025-01-23 03:24:15
--->
 <template>
   <view :class="styles['page-container']">
     <!-- sign board -->
